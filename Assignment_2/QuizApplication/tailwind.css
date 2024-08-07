@@ -1,0 +1,99 @@
+.mt-10{
+    margin-top: 10px;
+}
+.mx-10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mx-20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flex{
+    display:  flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.w-100{
+    width: 100%;
+}
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
+.w-60{
+    width: 60%;
+}
+.relative{
+    position: relative;
+}
+.text-xl{
+    font-size: 40px;
+}
+.text-lg{
+    font-size: 30px;
+}
+.text-md{
+    font-size: 20px;
+}
+.text-sm{
+    font-size: 15px;
+}
+.text-xs{
+    font-size: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+.text-white{
+    color: white;
+
+}
+.text-black{
+    color: black;
+}
+.ml-20-{
+    margin-left: 20%;
+}
+.text-center{
+    text-align: center;
+}
+.flex-1{
+    flex: 1;
+}
+
+.hidden{
+    display: none;
+}
