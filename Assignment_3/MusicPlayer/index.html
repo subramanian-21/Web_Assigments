@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Music Player</div>
+        <button onclick="alert('click on the load music and select a folder to play')">Help</button>
+        <div class="folder">
+            <label class="load-music" for="folder-open">Load Music</label>
+            <input type="file" name="" webkitdirectory multiple id="folder-open">
+        </div>
+    </header>
+    <section class="m-player">
+        <div class="player">
+            <div class="music-logo">
+                <img id="album-art" src="" alt="Album Art" width="150" height="150">
+            </div>
+            <div class="music-name" id="current-track">No Track Playing</div>
+            <div class="music-options">
+                <button class="music-btn" id="prev-track">&lt;</button>
+                <button class="music-btn" id="play-pause">II</button>
+                <button class="music-btn" id="next-track">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="all-music">
+        <div class="all-music-body" id="all-music-body"></div>
+    </section>
+    <audio id="audio-player"></audio>
+    <script src="./script.js"></script>
+</body>
+</html>
